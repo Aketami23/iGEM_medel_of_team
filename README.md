@@ -1,3 +1,38 @@
+2019~2023までのデータ
+以下はソート順と評価基準をまとめたものです。
+### 評価基準:
+
+- **金メダル** = 3点
+- **銀メダル** = 2点
+- **銅メダル** = 1点
+
+各チームのスコアは、上記のポイントに基づいて計算されます。金メダルの数に3を掛け、銀メダルの数に2を掛け、銅メダルの数に1を掛けた後、これらを合計してチームの総スコアを導き出します。
+
+### ソート順:
+
+1. **平均スコア（Average Score）**:
+   - スコアの合計をメダルの合計枚数で割り、その平均を計算します。
+   - 平均スコアが高いチームが上位にランクされます。
+
+2. **メダルの合計枚数（Total Medals）**:
+   - 各チームの金、銀、銅メダルの合計枚数を計算します。
+   - 平均スコアが同じ場合は、メダルの合計枚数が多いチームが上位にランクされます。
+
+### 出力フォーマット:
+
+```
+チーム名: Gold X, Silver Y, Bronze Z, Total Medals T, Total Score S, Average Score A
+```
+
+- **X**: 金メダルの数
+- **Y**: 銀メダルの数
+- **Z**: 銅メダルの数
+- **T**: メダルの合計枚数
+- **S**: 総スコア
+- **A**: 平均スコア（小数点以下2桁まで表示）
+
+この基準に基づき、チームの成績はファイルに保存され、参照や分析のために使用することができます。
+
 CAUChina: Gold 5, Silver 0, Bronze 0, Total Medals 5, Total Score 15, Average Score 3.00
 CPUCHINA: Gold 5, Silver 0, Bronze 0, Total Medals 5, Total Score 15, Average Score 3.00
 EPFL: Gold 5, Silver 0, Bronze 0, Total Medals 5, Total Score 15, Average Score 3.00
@@ -723,42 +758,3 @@ WorldshaperHZ: Gold 0, Silver 0, Bronze 1, Total Medals 1, Total Score 1, Averag
 Wroclaw: Gold 0, Silver 0, Bronze 1, Total Medals 1, Total Score 1, Average Score 1.00
 XHDWSWuhanB: Gold 0, Silver 0, Bronze 1, Total Medals 1, Total Score 1, Average Score 1.00
 XHDWuhanAChina: Gold 0, Silver 0, Bronze 1, Total Medals 1, Total Score 1, Average Score 1.00
-
-2019~2023までのデータ
-以下はソート順と評価基準をまとめたものです。
-### 評価基準:
-
-- **金メダル** = 3点
-- **銀メダル** = 2点
-- **銅メダル** = 1点
-
-各チームのスコアは、上記のポイントに基づいて計算されます。金メダルの数に3を掛け、銀メダルの数に2を掛け、銅メダルの数に1を掛けた後、これらを合計してチームの総スコアを導き出します。
-
-### ソート順:
-
-1. **平均スコア（Average Score）**:
-   - スコアの合計をメダルの合計枚数で割り、その平均を計算します。
-   - 平均スコアが高いチームが上位にランクされます。
-
-2. **メダルの合計枚数（Total Medals）**:
-   - 各チームの金、銀、銅メダルの合計枚数を計算します。
-   - 平均スコアが同じ場合は、メダルの合計枚数が多いチームが上位にランクされます。
-
-### 出力フォーマット:
-
-```
-チーム名: Gold X, Silver Y, Bronze Z, Total Medals T, Total Score S, Average Score A
-```
-
-- **X**: 金メダルの数
-- **Y**: 銀メダルの数
-- **Z**: 銅メダルの数
-- **T**: メダルの合計枚数
-- **S**: 総スコア
-- **A**: 平均スコア（小数点以下2桁まで表示）
-
-この基準に基づき、チームの成績はファイルに保存され、参照や分析のために使用することができます。
-
-
-
-
